@@ -32,7 +32,8 @@
   // Card Links output link to console on click
   document.querySelectorAll('a.cardLink').forEach(a => {
     a.addEventListener('click', () => {
-      const elementLink = a.href;    
-      console.log(elementLink);
+      const elementLink = a.id;  
+      event.preventDefault();  
+      console.log("Anchor Element Id is " +elementLink);
     });
   });
