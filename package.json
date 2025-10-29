@@ -1,0 +1,30 @@
+{
+  "name": "orchard",
+  "version": "1.0.0",
+  "description": "orchard - a taste experience",
+ 
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domricamora/orchard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/domricamora/orchard/issues"
+  },
+  "homepage": "https://github.com/domricamora/orchard#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "sass": "^1.93.2",
+    "sass-loader": "^16.0.6",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
