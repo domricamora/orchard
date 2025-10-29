@@ -7,9 +7,8 @@
   document.querySelectorAll('img.galleryImg').forEach(img => {
     img.addEventListener('click', () => {
       modal.style.display = 'block';
-      const filenameParts = img.src.split('.');
-      const filename = filenameParts[0];
-      modalImg.src = filename + '@3x.png';
+      const filename = img.id; // Use the img element's ID to get the filename
+      modalImg.src = '../src/images/' + filename + '@3x.png';      
       modalImg.alt = img.alt; // ensure accessible alt in modal
       modal.focus();
     });
