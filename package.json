@@ -2,7 +2,6 @@
   "name": "orchard",
   "version": "1.0.0",
   "description": "orchard - a taste experience",
- 
   "main": "index.js",
   "scripts": {
     "build": "webpack"

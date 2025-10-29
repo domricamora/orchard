@@ -1,0 +1,38 @@
+.gallery h1 {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 0;
+  border-bottom: 1px solid #fff;
+  line-height: 1.1;
+}
+.gallery p {
+  text-align: left;
+}
+.gallery .grid-item:nth-child(3) p {
+  padding: 20px 20px;
+   /*Font size was scaled down from 21px to 20px for better readability*/
+  font-size: 20px;
+}
+.gallery .grid-item:nth-child(3) h1 {
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+.gallery .grid-item:nth-child(3) h4 {
+  margin: 0 20px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #cf1430;
+  text-align: left;
+}
+.gallery .grid-item:nth-child(3) p.note {
+  padding: 20px 20px;
+   /*Font size was scaled down from 21px to 20px for better readability*/
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+}
