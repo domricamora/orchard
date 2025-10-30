@@ -37,14 +37,23 @@ Produces a bundled version of the website in the dist/ folder, ready for deploym
 bash
 Copy code
 orchard/
+
 ├── dist/                   # Built output (auto generated)
+
 ├── src/                    # Source files
+
 │   ├── images/             # Image assets
+
 │   ├── js/                 # JavaScript modules
+
 │   ├── styles/             # CSS / SCSS files
+
 │   └── index.html          # Entry HTML
+
 ├── package.json            # Project metadata & scripts
+
 ├── webpack.config.js       # Webpack config for bundling
+
 └── README.md               # This documentation
 
 🧰 Build Tools & Technologies
